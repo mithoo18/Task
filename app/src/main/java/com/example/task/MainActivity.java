@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(), "Load", Toast.LENGTH_SHORT).show();
-                btn1.setImageResource(R.drawable.ic_baseline_file_copy_24);
+                btn1.setImageResource(R.drawable.book1);
                 tx1.setText(txt1);
                 tx2.setText(txt2);
                 Picasso.get().load(imgt1).into(img1);
